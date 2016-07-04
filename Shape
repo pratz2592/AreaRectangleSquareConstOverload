@@ -1,0 +1,11 @@
+class shape {
+	public static void main(String[] args) {
+		Rectangle r1 = new Rectangle(); // const. with 0-parameter called
+		Rectangle r2 = new Rectangle(5); // const with l parameter called
+		Rectangle r3 = new Rectangle(7, 8); 
+		
+		
+		System.out.println("Area of Rectangle is : " + r3.area());
+		 System.out. println("Area of Square is : "+ r2.area( )); 
+	}
+}
