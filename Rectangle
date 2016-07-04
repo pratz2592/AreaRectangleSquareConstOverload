@@ -1,0 +1,28 @@
+class Rectangle{
+	int length;
+	int breadth;
+	int side;
+	
+	//Calculate the area of square and rectangles using constructor overloading. 
+
+	Rectangle() {
+		System.out.println("Constructor with Zero Parameter Called ");
+		length = breadth = 0;
+	}
+
+	Rectangle(int side) {
+		System.out.println("Constructor with One Parameter Called");
+		length = breadth = side;
+	}
+
+	Rectangle(int l, int b) {
+		System.out.println("Constructor with Two Parameters Called");
+		length = l;
+		breadth = b;
+	}
+	
+	int area() {
+		return (length * breadth);
+
+	}
+}
